@@ -5,7 +5,7 @@ import urllib.request
 
 def main():
     """Send a GET request to the ALU intranet status endpoint and print details."""
-    url = 'https://alu-intranet.hbtn.io/status'
+    url = 'https://intranet.hbtn.io/status'
     headers = {
         'User-Agent': (
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
