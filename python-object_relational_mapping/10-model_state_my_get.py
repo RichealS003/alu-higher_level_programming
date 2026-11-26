@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Prints the states object with the name passed as argument."""
+#Prints the states object with the name passed as argument.
 
 
 import sqlalchemy
