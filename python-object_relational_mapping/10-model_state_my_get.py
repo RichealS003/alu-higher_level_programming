@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#Prints the states object with the name passed as argument.
+"""Prints the states object with the name passed as argument."""
 
 
 import sqlalchemy
@@ -20,5 +20,4 @@ if __name__ == "__main__":
         print(str(state.id))
     else:
         print("Not found")
-#!/usr/bin/python3
     session.close()
